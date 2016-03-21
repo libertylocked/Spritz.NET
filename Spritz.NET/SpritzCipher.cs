@@ -23,25 +23,21 @@ namespace SpritzDotNet
         }
 
         public SpritzCipher(byte[] key)
+            : this()
         {
-            InitializeState();
             Absorb(key);
         }
 
         public SpritzCipher(byte[] key, byte[] iv)
+            : this(key)
         {
-            InitializeState();
-            Absorb(key);
             AbsorbStop();
             Absorb(iv);
         }
 
         public SpritzCipher(byte[] key, byte bits)
+            : this(key, new byte[] { bits })
         {
-            InitializeState();
-            Absorb(key);
-            AbsorbStop();
-            AbsorbByte(bits);
         }
         #endregion
 
