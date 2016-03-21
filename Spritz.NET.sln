@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spritz.NET", "Spritz.NET\Spritz.NET.csproj", "{E09BA72A-5C3D-46E1-B24F-0419E82D4B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spritz.NET-Tests", "Spritz.NET-Tests\Spritz.NET-Tests.csproj", "{540C8645-AD46-4B0D-A607-7A1C69A4CAB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E09BA72A-5C3D-46E1-B24F-0419E82D4B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09BA72A-5C3D-46E1-B24F-0419E82D4B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09BA72A-5C3D-46E1-B24F-0419E82D4B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09BA72A-5C3D-46E1-B24F-0419E82D4B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540C8645-AD46-4B0D-A607-7A1C69A4CAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540C8645-AD46-4B0D-A607-7A1C69A4CAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540C8645-AD46-4B0D-A607-7A1C69A4CAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540C8645-AD46-4B0D-A607-7A1C69A4CAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
